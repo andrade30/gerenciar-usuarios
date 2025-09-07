@@ -4,6 +4,7 @@ function retornarUsuarios () {
     return usuarios;
 }
 
+// push -> adiciona o nome na lista de usuários
 function adicionarNovoUsuario(nome) {
     usuarios.push(nome);
 }
